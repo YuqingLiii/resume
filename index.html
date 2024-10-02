@@ -3,189 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f5f5f5;
-            padding: 20px;
-            margin: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1, h2 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-
-        h1 {
-            font-size: 36px;
-        }
-
-        h2 {
-            font-size: 24px;
-        }
-
-        p, ul {
-            margin-bottom: 10px;
-        }
-
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        ul {
-            list-style-type: disc;
-            color: #000;
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 5px;
-        }
-
-        .section {
-            margin-bottom: 40px;
-        }
-
-        .section-title {
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
-        }
-
-        /* Flexbox for Core Courses */
-        .core-courses {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .core-course-item {
-            width: 50%; /* Equal width for each column */
-            box-sizing: border-box; /* Include padding and border in width calculation */
-            padding-right: 20px; /* Space between columns */
-        }
-    </style>
+    <title>Yuqing Li - CV</title>
 </head>
 <body>
-    <div class="container">
-        <div class="section">
-            <h1>Yuqing Li</h1>
-            <p>University of Science and Technology of China</p>
-            <p>Email: <a href="mailto:lyq62693641@mail.ustc.edu.cn">lyq62693641@mail.ustc.edu.cn</a></p>
-        </div>
-        
-        <div class="section">
-            <h2 class="section-title">Education</h2>
-            <p>
-                <strong>University of Science and Technology of China</strong> (09/2021-Present)<br>
-                School of Cyber Science and Technology<br>
-                Major: Information Security<br>
-                Overall GPA: 3.5/4.3, Weighted average: 85.15<br>
-                Bachelor's degree, Hefei, Anhui, China
-            </p>
-        </div>
+    <h1>Yuqing Li</h1>
+    <p>Email: <a href="mailto:lyq62693641@mail.ustc.edu.cn">lyq62693641@mail.ustc.edu.cn</a></p>
+    <p>Phone: (+86) 182 3717 1020</p>
+    <p>GitHub: <a href="https://github.com/YuqingLiii" target="_blank">github.com/YuqingLiii</a></p>
 
-        <div class="section">
-            <h2 class="section-title">Core Courses</h2>
-            <div class="core-courses">
-                <div class="core-course-item">
-                    <ul>
-                        <li>Quantum Physics: 90</li>
-                        <li>Computer Programming A: 91</li>
-                        <li>Mathematical Analysis B1: 90</li>
-                    </ul>
-                </div>
-                <div class="core-course-item">
-                    <ul>
-                        <li>Introduction to Quantum Information: 90</li>
-                        <li>Quantum Computing and Machine Learning: 91</li>
-                        <li>Electromagnetism A: 90</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <h2>Education</h2>
+    <p><strong>University of Science and Technology of China (USTC)</strong><br> 
+    Sept. 2021 – Jun. 2025 (Expected)<br> 
+    Bachelor of Cyber Science and Technology<br>
+    Major: Information Security<br>
+    GPA: 3.48/4.3 | Weighted average: 84.85 | Ranking: Top 30%<br>
+    Core courses: Introduction to Quantum Information (graduate course), Introduction to Quantum Computing (graduate course)</p>
 
-        <div class="section">
-            <h2 class="section-title">Research Interests</h2>
-            <ul>
-                <li>Quantum Machine Learning</li>
-                <li>Quantum Circuits Optimization</li>
-                <li>Quantum algorithms</li>
-                <!-- Add other research interests -->
-            </ul>
-        </div>
+    <h2>Research Interests</h2>
+    <p>Quantum machine learning (QML), quantum architecture</p>
 
-        <div class="section">
-            <h2 class="section-title">Publications</h2>
-            <ul>
-                <li>
-                    <strong>Yuqing Li</strong>, Yusheng Zhao, Xinyue Zhang, Hui Zhong, Miao Pan, Chi Zhang,
-                    <a href="https://arxiv.org/abs/2312.08210"><em>Differential Privacy Preserving Quantum Computing via Projection Operator Measurements</em></a>
-                    (QCNC 2024).
-                </li>
-            </ul>
-        </div>
+    <h2>Publications</h2>
+    <p>Yuqing Li, Yusheng Zhao, Xinyue Zhang, Hui Zhong, Miao Pan, Chi Zhang, "Differential Privacy Preserving Quantum Computing via Projection Operator Measurements," International Conference on Quantum Communications, Networking and Computing 2024 (QCNC 2024).</p>
 
-        <div class="section">
-            <h2 class="section-title">Research Experiences</h2>
-            <ul>
-                <li>
-                    <strong>Quantum Differential Privacy via Shot Noise</strong> (06/2023-12/2023)<br>
-                    Instructor: Prof. Miao Pan, Electrical & Computer Engineering, University of Houston<br>
-                    <ul>
-                        <li>Conduct literature review on quantum differential privacy and variational quantum algorithm.</li>
-                        <li>Analyze and quantify the quantum privacy budget resulting from shot noise in quantum circuits with different types of noise or without noise.</li>
-                        <li>Perform corresponding experiments of quantum differential privacy on variational quantum circuits using Qiskit and PennyLane. For example, I trained a quantum classifier using the Iris dataset and calculate the privacy budget caused by shot noise for a small number of shots.</li>
-                    </ul>    
-                </li>
-                <li>
-                    <strong>The Interpretability of Quantum Machine Learning</strong> (12/2023-present)<br>
-                    Instructor: Prof. Wei Yang, School of Computer Sciences and Technology, USTC<br>
-                    <ul>
-                        <li>Engage in a comprehensive review of corresponding literature and provide a summary of the research findings.</li>
-                        <li>Attempt to create a quantum classifier with a high interpretability.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Optimizing quantum machine learning initial conditions </strong>  (3/2024-present)<br>
-                    Instructor: Prof. Junyu Liu, School of Computer Sciences and Technology, University of Pittsburgh<br>
-                    <ul>
-                        <li>Utilize Clifford gates for parameter initialization.</li>
-                    </ul>    
-                </li>
-                <!-- Add other research experiences -->
-            </ul>
-        </div>
+    <h2>Research Experiences</h2>
+    <h3>Optimizing QML Initial Conditions with Large-Scale Qubits</h3>
+    <p>Apr. 2024 – Present | Instructor: Prof. Junyu Liu, School of Computer Sciences and Technology, University of Pittsburgh</p>
+    <ul>
+        <li>Utilize Stim to construct Clifford circuits and employ Bayesian optimization to train, resulting in the discovery of initial parameters for quantum machine learning, thereby avoiding barren plateau phenomena.</li>
+        <li>Discover that removing the final layer of parameter gates from the EfficientSU2 ansatz can extend the algorithm to large-scale qubit systems.</li>
+        <li>Accelerate the computation through CPU parallelization and implement the algorithm on 1000 qubits within 2 hours.</li>
+    </ul>
 
-        <div class="section">
-            <h2 class="section-title">Scholarships</h2>
-            <ul>
-                <li>Yan Jici Physics Science and Technology Scholarship (2022)</li>
-                <!-- Add other scholarships -->
-            </ul>
-        </div>
+    <h3>Quantum Telepathy under Lossy Conditions</h3>
+    <p>Aug. 2024 – Present | Instructor: Prof. David Ding, Yau Mathematical Sciences Center, Tsinghua University</p>
+    <ul>
+        <li>Derive the correlation form and quantum gap in the presence of loss.</li>
+        <li>Formulate the Tsirelson theorem under lossy conditions, yielding new Hermitian operators and the corresponding inner product form.</li>
+        <li>Leverage semidefinite program (SDP) to address the numerical optimization problem in lossy conditions.</li>
+    </ul>
 
-        <div class="section">
-            <h2 class="section-title">Skills</h2>
-            <ul>
-                <li>Programming Languages: C, C plus, Python, MATLAB, Latex, Shell, Markdown, Mathematica</li>
-                <li>Extra: SolidWorks, Cello, Violin</li>
-            </ul>
-        </div>
-    </div>
+    <h3>Quantum Classifier via Optimal Measurement Training</h3>
+    <p>Dec. 2023 – Aug. 2024 | Instructor: Prof. Wei Yang, School of Computer Sciences and Technology, USTC</p>
+    <ul>
+        <li>Propose utilizing the training of an optimal measurement operator to perform a binary classification task.</li>
+        <li>Apply pruning techniques to address the issue of excessive training time caused by an exponential number of Pauli operators.</li>
+        <li>Transform the Schrödinger picture to the Heisenberg picture to avoid barren plateau phenomena caused by random circuits.</li>
+    </ul>
+
+    <h3>Quantum Differential Privacy via Shot Noise</h3>
+    <p>June 2023 – Dec. 2023 | Instructor: Prof. Miao Pan, Electrical & Computer Engineering, University of Houston</p>
+    <ul>
+        <li>Propose a novel approach to achieve quantum differential privacy by introducing shot noise.</li>
+        <li>Achieve privacy protection more efficiently by setting the number of shots between 10 and 20 rather than introducing additional noise.</li>
+        <li>Avoid the overhead and complexity caused by adding extra quantum or classical noise to the circuit.</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <h3>Leader, Topological Quantum Compiling</h3>
+    <p>GitHub: <a href="https://github.com/YuqingLiii/Topological-Quantum-Compiling" target="_blank">Topological-Quantum-Compiling</a></p>
+    <ul>
+        <li>Define classes of the ring of integers and its real subring in Python to replicate the algorithm of the paper "Asymptotically Optimal Topological Quantum Compiling".</li>
+        <li>Utilize this algorithm to achieve the compilation of single-qubit and CNOT gates, and decompose multi-qubit operations into single-qubit and CNOT gates to accomplish multi-qubit compilation.</li>
+        <li>Tools Used: Python, Mathematica</li>
+    </ul>
+
+    <h3>Leader, Curling Robot Design</h3>
+    <ul>
+        <li>Utilize SolidWorks to create the 3D model of the robot, securing 8th place out of over 50 teams.</li>
+        <li>Customize needed materials and complete the construction of the mechanical structure independently.</li>
+        <li>Lead the team to complete the remaining tasks in electrical control and visual identification, resulting in the robot winning the Excellence Award in the final competition.</li>
+        <li>Tools Used: SolidWorks, AutoCAD</li>
+    </ul>
+
+    <h2>Teaching Experience</h2>
+    <h3>Teaching Assistant</h3>
+    <p>Quantum Physics (undergraduate course) | 2024 Spring</p>
+    <ul>
+        <li>Responsible for tutorial and homework correction.</li>
+        <li>Conducted five problem-solving sessions and two review classes, practicing teaching abilities.</li>
+    </ul>
+
+    <h2>Professional & Social Activities</h2>
+    <h3>Speaker, QCNC 2024</h3>
+    <p>Jul. 2024</p>
+    <ul>
+        <li>Delivered a presentation about Quantum Differential Privacy to researchers, focusing on the novel approach to privacy preservation in quantum computing.</li>
+    </ul>
+
+    <h3>Leader, Social Practice of College Students’ Bringing Culture, Technology and Healthcare Skills to the Countryside at LanKao City</h3>
+    <p>Aug. 2024</p>
+    <ul>
+        <li>Conducted interviews with local farmers on topics such as income, livelihood, and farming.</li>
+        <li>Researched the local agricultural production models and wrote a report analyzing the existing issues and proposing solutions, earning 3rd place over 70 teams in the final evaluation.</li>
+    </ul>
+
+    <h3>Cellist, USTC Student Symphony Orchestra</h3>
+    <p>Sept. 2021 – Present</p>
+    <ul>
+        <li>Performed regularly as part of the orchestra, contributing to various concerts and works such as Beethoven’s Fifth Piano Concerto.</li>
+    </ul>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>Programming Languages: C++, C, Python, SQL, Latex, Shell, Markdown, MATLAB, Mathematica</li>
+        <li>Additional Skills: SolidWorks, Cello, Violin</li>
+    </ul>
+
+    <h2>Awards</h2>
+    <ul>
+        <li>Bronze Prize, USTC Excellent Student Scholarship (Top 30%), 2024</li>
+        <li>Yan Jici Physics Science and Technology Scholarship, 2022</li>
+        <li>Bronze Prize, USTC Excellent Student Scholarship (Top 30%), 2022</li>
+        <li>Excellence Prize, USTC Robogame Robotics Competition, 2022</li>
+    </ul>
+
+    <h2>Standardized Tests</h2>
+    <p>TOEFL: 95 (Reading: 30, Listening: 21, Speaking: 19, Writing: 25)</p>
+
 </body>
 </html>
